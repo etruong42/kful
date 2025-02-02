@@ -83,36 +83,25 @@ main {
 .main-container .disclaimer {
     font-style: italic;
     color: #666;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-}
-
-.main-section h2 {
-    margin: 2rem 0 1rem;
-    color: #444;
-    font-size: 1.5rem;
-}
-
-.main-section p {
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.8;
-}
-
-.color-block {
     margin: 2rem 0;
     line-height: 1.8;
 }
 
-.color-block .highlight-1 {
+.main-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 2rem 0;
+    line-height: 1.8;
+}
+
+.highlight-1 {
     color: #2c5282;  /* Deep blue */
 }
 
-.color-block .highlight-2 {
+.highlight-2 {
     color: #38a169;  /* Forest green */
 }
 
-.color-block .highlight-3 {
+.highlight-3 {
     color: #b7791f;  /* Warm amber */
 }
