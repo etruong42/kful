@@ -72,11 +72,15 @@ main {
 .toc-nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .toc-nav li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     padding-left: 1rem;
+    width: 100%;
 }
 
 .toc-nav a {
@@ -86,6 +90,10 @@ main {
     transition: color 0.2s ease;
     display: block;
     padding: 4px 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .toc-nav a:hover {
