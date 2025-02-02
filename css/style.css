@@ -69,7 +69,7 @@ main {
 }
 
 .main-container h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     color: #333;
     font-size: 2.5rem;
 }
