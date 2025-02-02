@@ -99,3 +99,20 @@ main {
     color: #555;
     line-height: 1.8;
 }
+
+.color-block {
+    margin: 2rem 0;
+    line-height: 1.8;
+}
+
+.color-block .highlight-1 {
+    color: #2c5282;  /* Deep blue */
+}
+
+.color-block .highlight-2 {
+    color: #38a169;  /* Forest green */
+}
+
+.color-block .highlight-3 {
+    color: #b7791f;  /* Warm amber */
+}
