@@ -94,6 +94,13 @@ main {
     line-height: 1.8;
 }
 
+.main-container section h2 {
+    margin-top: 3rem;
+    color: #666;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
 .highlight-1 {
     color: #2c5282;  /* Deep blue */
 }
