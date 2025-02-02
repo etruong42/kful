@@ -112,3 +112,20 @@ main {
 .highlight-3 {
     color: #b7791f;  /* Warm amber */
 }
+
+.article-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.image-caption {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
