@@ -78,6 +78,32 @@ main {
     gap: 8px;
 }
 
+/* Nested list styles */
+.toc-nav ul ul {
+    margin-left: 1rem;
+    border-left: 1px solid #e0e0e0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.toc-nav ul ul li {
+    font-size: 0.85rem;
+    padding-left: 0.5rem;
+}
+
+.toc-nav ul ul a {
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.toc-nav ul ul a:hover {
+    color: #0056b3;
+}
+
+.toc-nav ul ul a.active {
+    color: #0056b3;
+}
+
 .toc-nav li {
     margin-bottom: 0;
     padding-left: 1rem;
