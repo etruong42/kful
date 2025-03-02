@@ -244,24 +244,19 @@ main {
 
 .main-container ul li {
     margin-bottom: 0.5rem;
-    color: #555;
     font-size: 1.1rem;
 }
 
 .main-container ul ul {
     margin: 0.5rem 0 1rem 1rem;
-    border-left: 2px solid #e0e0e0;
     padding-left: 1.5rem;
 }
 
 .main-container ul ul li {
     font-size: 1rem;
-    color: #666;
     margin-bottom: 0.4rem;
 }
 
 .main-container ul ul li::before {
-    content: "→";
-    color: #999;
     margin-right: 0.5rem;
 }
